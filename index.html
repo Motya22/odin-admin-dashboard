@@ -7,12 +7,359 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <aside class="sidebar">SIDEBAR</aside>
-    <header class="header">HEADER</header>
+    <aside class="sidebar">
+      <a href="" class="logo">
+        <div class="logo__icon">
+          <img
+            src="./assets/icons/view-dashboard.svg"
+            alt="View dashboard icon"
+          />
+        </div>
+        <h1 class="logo__title">Dashboard</h1>
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img src="./assets/icons/home.svg" alt="Home icon" />
+            </div>
+            <a href="" class="menu__link">Home</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img
+                src="./assets/icons/card-account-details-outline.svg"
+                alt="Card account details outline icon"
+              />
+            </div>
+            <a href="" class="menu__link">Profile</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img
+                src="./assets/icons/message-reply.svg"
+                alt="Message reply icon"
+              />
+            </div>
+            <a href="" class="menu__link">Messages</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img
+                src="./assets/icons/clock-time-three.svg"
+                alt="Clock time three icon"
+              />
+            </div>
+            <a href="" class="menu__link">History</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img
+                src="./assets/icons/file-multiple.svg"
+                alt="File multiple icon"
+              />
+            </div>
+            <a href="" class="menu__link">Tasks</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img
+                src="./assets/icons/account-group.svg"
+                alt="Account group icon"
+              />
+            </div>
+            <a href="" class="menu__link">Communities</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img src="./assets/icons/cog.svg" alt="Cog icon" />
+            </div>
+            <a href="" class="menu__link">Settings</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img src="./assets/icons/help-box.svg" alt="Help box icon" />
+            </div>
+            <a href="" class="menu__link">Support</a>
+          </li>
+          <li class="menu__item">
+            <div class="menu__icon">
+              <img
+                src="./assets/icons/shield-check.svg"
+                alt="Shield check icon"
+              />
+            </div>
+            <a href="" class="menu__link">Privacy</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <header class="header">
+      <div class="header__top">
+        <form action="" class="search-form">
+          <label for="search">
+            <img src="./assets/icons/magnify.svg" alt="Magnify icon" />
+          </label>
+          <input type="search" name="search" id="search" />
+        </form>
+        <div class="user-top">
+          <a href="" class="user-top__notifications">
+            <img
+              src="./assets/icons/bell-ring-outline.svg"
+              alt="Bell ring outline icon"
+            />
+          </a>
+          <a href="" class="user-top__icon">
+            <img src="./assets/user-logo-01.jpg" alt="User logo" />
+          </a>
+          <div class="user-top__name">Morgan Oakley</div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="user-bottom">
+          <div class="user-bottom__icon">
+            <img src="./assets/user-logo-01.jpg" alt="User logo" />
+          </div>
+          <div class="user-bottom__text">
+            <div class="user-bottom__welcome">Hi there,</div>
+            <h2 class="user-bottom__name">Morgan Oakley (@morgan)</h2>
+          </div>
+        </div>
+        <div class="btns">
+          <button type="button" class="btn">New</button>
+          <button type="button" class="btn">Upload</button>
+          <button type="button" class="btn">Share</button>
+        </div>
+      </div>
+    </header>
     <main class="main-content">
-      <section class="projects">PROJECTS</section>
-      <section class="announcements">ANNOUNCEMENTS</section>
-      <section class="trending">TRENDING</section>
+      <section class="projects">
+        <h3 class="section-title">Your Projects</h3>
+        <div class="projects__items">
+          <article class="projects__item item-projects">
+            <a href="" class="item-projects__name"
+              ><h4>Super Cool Project</h4></a
+            >
+            <p class="item-projects__description">
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </p>
+            <div class="item-projects__actions">
+              <a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/star-plus-outline.svg"
+                  alt="Star plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/eye-plus-outline.svg"
+                  alt="Eye plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/source-fork.svg"
+                  alt="Source fork logo"
+                />
+              </a>
+            </div>
+          </article>
+          <article class="projects__item item-projects">
+            <a href="" class="item-projects__name"
+              ><h4>Less Cool Project</h4></a
+            >
+            <p class="item-projects__description">
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis
+              sem purus, dignissim ut sapien in, varius pellentesque lacus.
+            </p>
+            <div class="item-projects__actions">
+              <a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/star-plus-outline.svg"
+                  alt="Star plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/eye-plus-outline.svg"
+                  alt="Eye plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/source-fork.svg"
+                  alt="Source fork logo"
+                />
+              </a>
+            </div>
+          </article>
+          <article class="projects__item item-projects">
+            <a href="" class="item-projects__name"><h4>Impossible App</h4></a>
+            <p class="item-projects__description">
+              In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
+            </p>
+            <div class="item-projects__actions">
+              <a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/star-plus-outline.svg"
+                  alt="Star plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/eye-plus-outline.svg"
+                  alt="Eye plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/source-fork.svg"
+                  alt="Source fork logo"
+                />
+              </a>
+            </div>
+          </article>
+          <article class="projects__item item-projects">
+            <a href="" class="item-projects__name"><h4>Easy Peasy App</h4></a>
+            <p class="item-projects__description">
+              Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+              urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magna tincidut.
+            </p>
+            <div class="item-projects__actions">
+              <a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/star-plus-outline.svg"
+                  alt="Star plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/eye-plus-outline.svg"
+                  alt="Eye plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/source-fork.svg"
+                  alt="Source fork logo"
+                />
+              </a>
+            </div>
+          </article>
+          <article class="projects__item item-projects">
+            <a href="" class="item-projects__name"><h4>Ad Blocker</h4></a>
+            <p class="item-projects__description">
+              Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
+              pharetre hendrerit felis. Aliquam sed malesuada eros.
+            </p>
+            <div class="item-projects__actions">
+              <a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/star-plus-outline.svg"
+                  alt="Star plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/eye-plus-outline.svg"
+                  alt="Eye plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/source-fork.svg"
+                  alt="Source fork logo"
+                />
+              </a>
+            </div>
+          </article>
+          <article class="projects__item item-projects">
+            <a href="" class="item-projects__name"><h4>money maker</h4></a>
+            <p class="item-projects__description">
+              Praesent convallis, libero quis congue elementum , nunc ante
+              faucibus sapien, ac scelerisque tortor purus sit amet ex.
+              Pellentesque mollis nec sem vel aliquam.
+            </p>
+            <div class="item-projects__actions">
+              <a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/star-plus-outline.svg"
+                  alt="Star plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/eye-plus-outline.svg"
+                  alt="Eye plus outline logo" /></a
+              ><a href="" class="item-projects__icon">
+                <img
+                  src="./assets/icons/source-fork.svg"
+                  alt="Source fork logo"
+                />
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="announcements">
+        <h3 class="section-title">Announcements</h3>
+        <div class="announcements__items">
+          <article class="announcements__item item-announcements">
+            <a href="" class="item-announcements__name"
+              ><h5>Site Maintenance</h5></a
+            >
+            <p class="item-announcements__description">
+              Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+              Donec hendrerit sodales congue...
+            </p>
+          </article>
+          <article class="announcements__item item-announcements">
+            <a href="" class="item-announcements__name"
+              ><h5>Community share day</h5></a
+            >
+            <p class="item-announcements__description">
+              Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam
+              dictum accumsan porttitor...
+            </p>
+          </article>
+          <article class="announcements__item item-announcements">
+            <a href="" class="item-announcements__name"
+              ><h5>Updated Privacy Policy</h5></a
+            >
+            <p class="item-announcements__description">
+              Phasellus efficitur nisi eget elit consectetur, eget condimentum
+              ante auctor. Cras fringilla sagittis sem in mattis...
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="trending">
+        <h3 class="section-title">Trending</h3>
+        <div class="trending__users">
+          <a href="" class="trending__user user-trending">
+            <div class="user-trending__icon">
+              <img src="./assets/user-logo-02.jpg" alt="User logo icon" />
+            </div>
+            <div class="user-trending__info">
+              <div class="user-trending__name">@tegan</div>
+              <div class="user-trending__project-name">World Peace Builder</div>
+            </div>
+          </a>
+          <a href="" class="trending__user user-trending">
+            <div class="user-trending__icon">
+              <img src="./assets/user-logo-01.jpg" alt="User logo icon" />
+            </div>
+            <div class="user-trending__info">
+              <div class="user-trending__name">@morgan</div>
+              <div class="user-trending__project-name">super cool project</div>
+            </div>
+          </a>
+          <a href="" class="trending__user user-trending">
+            <div class="user-trending__icon">
+              <img src="./assets/user-logo-03.jpg" alt="User logo icon" />
+            </div>
+            <div class="user-trending__info">
+              <div class="user-trending__name">@kendall</div>
+              <div class="user-trending__project-name">Life Changing App</div>
+            </div>
+          </a>
+          <a href="" class="trending__user user-trending">
+            <div class="user-trending__icon">
+              <img src="./assets/user-logo-04.jpg" alt="User logo icon" />
+            </div>
+            <div class="user-trending__info">
+              <div class="user-trending__name">@alex</div>
+              <div class="user-trending__project-name">No Traffic Maker</div>
+            </div>
+          </a>
+        </div>
+      </section>
     </main>
   </body>
 </html>
